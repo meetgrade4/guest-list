@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>
+            GUEST LIST
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+        <script src = "main.js"></script>
+    </head>
+    <body>
+        <center>
+        <span>student name- <input type = "text" id = "newstudent"></span>
+        <div>
+        <button onclick = "addstudent()">add</button>
+        </div>
+        <div class = "line"></div>
+        <button onclick = "show()" id = "show">show</button>
+        <div id = "unsorted"></div>
+        <div class = "line"></div>
+        <input id = "search" type = "text" placeholder = "enter name here">
+        <button id = "search" onclick = "search()">search</button>
+        <h1 id = "search_result">0</h1>
+        <div class = "line" id = "unhideline" style = "visibility:hidden;"></div>
+        <button style = "visibility:hidden;" onclick = "sort()" id = "sort" visibility = >sort</button>
+        <div style = "visibility:hidden;" id = "sorted"></div>
+        </center>
+    </body>
+</html>
